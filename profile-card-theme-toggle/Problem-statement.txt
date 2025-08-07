@@ -1,1 +1,4 @@
-Create a React component that demonstrates the use of dynamic and conditional inline styling using the useState hook. The component should render a card containing an image and profile information, and include buttons that allow the user to toggle between "Dark Mode" and "Default Mode". Each mode should change the background color and text color of the card dynamically using inline styles. The solution should maintain clean and reusable code while effectively utilizing React's state management to reflect style changes on user interaction.
+Create a React component that demonstrates the use of dynamic and conditional inline styling using the useState hook. 
+The component should render a card containing an image and profile information, and include buttons that allow the user to toggle between "Dark Mode" and "Default Mode". 
+Each mode should change the background color and text color of the card dynamically using inline styles. 
+The solution should maintain clean and reusable code while effectively utilizing React's state management to reflect style changes on user interaction.
