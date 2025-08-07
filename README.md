@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This repository contains a curated collection of React JS mini-projects, logic-based questions, and conceptual examples designed to enhance your understanding of React.
 
 Whether you're preparing for interviews, strengthening your React fundamentals, or building a strong portfolio with practical examples, this repo provides clean and reusable code patterns.
@@ -18,3 +19,7 @@ Component Structure and Styling
 
 ✅ Ideal for beginners, students, and interview preparation.
 
+=======
+# react-js-interesting-questionsons
+A collection of interesting React JS questions and mini-projects to strengthen concepts through hands-on practice.
+>>>>>>> cef256a (Initial commit)
