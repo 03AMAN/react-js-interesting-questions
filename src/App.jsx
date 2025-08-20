@@ -1,8 +1,11 @@
 import React from 'react'
+import Home from '../Context-Api-questions/src/Home'
 
 const App = () => {
   return (
-    <div></div>
+    <div>
+      <Home/>
+    </div>
   )
 }
 

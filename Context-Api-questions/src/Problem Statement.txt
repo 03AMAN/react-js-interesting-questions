@@ -1,0 +1,45 @@
+In a React application, multiple nested components (College → ClassComponent → Student → Subject) need to access and display the selected subject chosen by the user. Traditionally, this would require passing the subject value as props through every component in the hierarchy (prop drilling problem).
+The goal is to use React Context API to solve this issue:
+User Requirement
+
+
+The user should be able to select a subject from a dropdown (Science, Maths, English).
+
+
+The selected subject should be available globally across deeply nested components without manually passing props.
+
+
+The user should also be able to clear the subject selection with a button click.
+
+
+Technical Requirement
+
+
+Use createContext() to create a SubjectContext.
+
+
+Wrap the component tree with SubjectContext.Provider in the Login component.
+
+
+Use useContext() in the Subject component to consume the subject value directly.
+
+
+Provide a default subject (e.g., "Maths") when no subject is selected.
+
+
+Expected Behavior
+
+
+When the user selects a subject, the value should immediately update in the Subject component, no matter how deeply nested it is.
+
+
+When the Clear Subject button is clicked, the displayed subject should reset (empty or default).
+
+
+The UI should dynamically reflect changes without prop drilling.
+
+
+
+⚡ In short:
+Problem → Prop drilling makes passing subject data through multiple nested components inefficient.
+ Solution → Use React Context API (createContext, Provider, useContext) to manage subject data globally.
